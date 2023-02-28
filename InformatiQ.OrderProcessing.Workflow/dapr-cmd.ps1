@@ -1,0 +1,1 @@
+dapr run --app-id informatiq-order-99123-wf --dapr-grpc-port 4001 --dapr-http-port 3500

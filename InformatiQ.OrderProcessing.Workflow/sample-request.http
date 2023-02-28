@@ -1,0 +1,5 @@
+
+POST http://localhost:3500/v1.0-alpha1/workflows/dapr/OrderProcessingWorkflow/{{$guid}}/start HTTP/1.1
+Content-Type: application/json
+
+{ "input" : {"CustomerId":"{{$guid}}","PaymentId":4564562,"BillingAddressId":1,"ShippingAddressId":2,"DeliveryCharge":10,"OrderTotal":100,"IsUserNotified":true,"IsSuccess":true,"OrderItems":[{"ProductId":10,"Price":10,"Quantity":5},{"ProductId":20,"Price":20,"Quantity":2}]}}
