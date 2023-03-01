@@ -9,8 +9,8 @@ Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about St
 - Azure Cosmos DB emulator
 - Dapr
 
-## To run the application
-
+## Commands
+### To run the application please execute the following commands in project directory
 ```sh
 .\dapr-cmd.ps1
 dotnet run
